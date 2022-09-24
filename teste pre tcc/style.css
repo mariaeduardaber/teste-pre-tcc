@@ -1,0 +1,37 @@
+body{
+    background-color: darkseagreen;
+
+}
+
+.navegador{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+}
+
+.navegador li{
+    list-style-type: none;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    align-items: center;
+    cursor:pointer;
+    background-color: rgb(67, 153, 67);
+    border: 1px solid rgb(67, 153, 67);
+    border-radius: 30px 30px 0 0;
+}
+
+.navegador li:hover{
+    color: white;
+    background-color: rgb(22, 255, 22);
+    border: rgb(22, 255, 22);
+}
+
+.pergunta{
+    font-size: 80px;
+    color: rgb(66, 64, 64);
+}
+
+.input-caixa{
+    width: 100px;
+}
